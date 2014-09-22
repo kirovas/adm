@@ -387,6 +387,7 @@ and (max-width : 320px) {
 	width:100%;
  }
  .princ{width:100%;text-align:center;}
+ .princ-w{width:100%;text-align:center;}
 }
  
 /* Smartphones (landscape) ----------- */
@@ -402,6 +403,7 @@ and (max-width : 480px) {
 	width:100%;
  }
  .princ{width:100%;text-align:center;}
+ .princ-w{width:100%;text-align:center;}
 }
  
 /* iPads (portrait) ----------- */
@@ -418,6 +420,7 @@ and (max-width : 768px) {
  }
  .form-group{float:left;}
  .princ{width:100%;text-align:center;}
+ .princ-w{width:100%;text-align:center;}
 }
  
 /* iPads (landscape) ----------- */
