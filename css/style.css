@@ -399,7 +399,7 @@ and (min-width : 321px)
 and (max-width : 480px) {
     /* Styles */
 	nav ul     { display: none; }
-    nav select { display: inline-block; top:-45px;}
+   nav select { display: inline-block; top:0px;}
 	.center-name{display:none;}
 	.arrow, .arrow-down{display:none;}
 	 .footer .column-first{
@@ -416,7 +416,7 @@ and (min-width : 481px)
 and (max-width : 768px) {
     /* Styles */
 	nav ul     { display: none; }
-    nav select { display: inline-block; top:-45px;}
+    nav select { display: inline-block; top:0px;}
 	.center-name{display:none;}
 	 .arrow, .arrow-down{display:none;}
 	 .footer .column-first{
