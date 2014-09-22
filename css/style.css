@@ -8,6 +8,8 @@ img{
 	height:130px;
 	box-shadow:0px 5px 15px rgba(0,0,0,0.4);
 	background:#fff;
+	position: relative;
+z-index: 22;
 }
 .logo{
 	float:left;
@@ -46,7 +48,7 @@ text-align: center;
 }
 .full-slider{
 	position:relative;
-	z-index:-1;
+	z-index:1;
 	margin-top:-60px;
 	left:0px;
 	width:100%;
