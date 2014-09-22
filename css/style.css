@@ -121,6 +121,20 @@ vertical-align: middle;
 margin-bottom: 20px;
 position:relative;
 }
+.princ-w{
+	min-height:280px;
+	width:210px;
+vertical-align: middle;
+margin-bottom: 20px;
+position:relative;
+margin-right:80px;
+}
+.c-w-name {
+
+text-align:center;
+font-size: 15px;
+color: #2e2e2e;
+}
 .princ p{
 	text-align:center;
 }
@@ -135,6 +149,22 @@ border-radius:100%;
 margin-bottom:20px;
 overflow:hidden;
 position:relative;
+}
+.circle-w{
+display:inline-block;
+width:210px;
+height:210px;
+padding-top:30px;
+text-align:center;
+background:#fff;
+border-radius:100%;
+margin-bottom:20px;
+overflow:hidden;
+position:relative;
+}
+.circle-w img{
+	position:relative;
+	top:5%;
 }
 .circle-grey img{
 	position:relative;
