@@ -377,7 +377,7 @@ border-radius: 0px;
 and (max-width : 320px) {
     /* Styles */
 	nav ul     { display: none; }
-    nav select { display: inline-block; top:-45px;}
+    nav select { display: inline-block; top:0px;}
 	.center-name{display:none;}
  .arrow{display:none;}
  .footer .column-first{
