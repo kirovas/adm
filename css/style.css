@@ -390,7 +390,7 @@ and (max-width : 320px) {
  }
  .princ{width:100%;text-align:center;}
  .princ-w{width:100%;text-align:center;}
- .btn-order{font-size:14px;line-height:14px;}
+ 
 }
  
 /* Smartphones (landscape) ----------- */
@@ -405,7 +405,7 @@ and (max-width : 480px) {
 	 .footer .column-first{
 	width:100%;
  }
- .btn-order{font-size:14px;line-height:14px;}
+ 
  .princ{width:100%;text-align:center;}
  .princ-w{width:100%;text-align:center;}
 }
@@ -422,6 +422,7 @@ and (max-width : 768px) {
 	 .footer .column-first{
 	width:100%;
  }
+ .btn-order{font-size:14px;line-height:14px;}
  .form-group{float:left;}
  .princ{width:100%;text-align:center;}
  .princ-w{width:100%;text-align:center;}
@@ -432,6 +433,7 @@ and (max-width : 768px) {
 and (min-width : 769px) 
 and (max-width : 1024px) {
     /* Styles */
+	
  .center-name{width: 60%;}
  .footer .column-first{width:100%;text-align:center;}
 }
