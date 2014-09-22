@@ -106,7 +106,40 @@ nav select {
 .full-slider{
 	overflow:hidden;
 }
-
+.slides li{position:relative;}
+.full-slider .caption{
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	z-index: 9999;
+	width: 33%;
+	text-align:center;
+}
+.full-slider .caption h1{
+	font-size:25px;
+	text-transform:uppercase;
+	color:#fff;
+	font-family:'Book Antiqua';
+}
+.full-slider .caption .cap-sm{
+	text-transform:initial;
+}
+.full-slider .caption .cap-red{
+	text-transform:initial;
+	color:#db5c5c;
+}
+.btn-cap{
+	background:#292929;
+	color:#fff;
+	text-transform:uppercase;
+	border-radius:0px;
+	font-size:25px;
+	font-family:'Book Antiqua';
+}
+.btn-cap:hover{
+	text-decoration:none;
+	color:#fff;
+}
 /**/
 .content{
 	width:100%;
@@ -376,7 +409,31 @@ border-radius: 0px;
 	font-size:11px;
 	color:#000;
 }
-
+.form-wrap input[type="text"]{
+	width:100%;
+	line-height:31px;
+	background:#e0e0e0;
+	border:0px;
+	margin-bottom:20px;
+}
+.form-wrap textarea{
+	width:100%;
+	background:#e0e0e0;
+	border:0px;
+	margin-bottom:20px;
+}
+.modal-header{
+	border-bottom:0px!important;
+}
+.btn-modal{
+	line-height:31px;
+	color:#fff;
+	background:#484848;
+	font-size:12px;
+}
+.modal-footer{
+	text-align:center;
+}
 	/* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
