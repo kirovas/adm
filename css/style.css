@@ -245,6 +245,9 @@ transform: rotate(90deg);
 	border-radius:0px;
 	margin-top:40px;
 }
+.flexslider-gal .flex-direction-nav{
+	display:none;
+}
 .footer{
 	background-image: -moz-linear-gradient(top, #dedede, #efefef);
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #dedede), color-stop(1.0, #efefef));

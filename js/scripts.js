@@ -3,6 +3,13 @@ $(window).load(function() {
     animation: "slide"
   });
 });
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider-gal').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  });
+});
 // DOM ready
 	 $(function() {
 	   
