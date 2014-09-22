@@ -223,6 +223,7 @@ transform: rotate(90deg);
 	font-family:'Book Antiqua';
 	color:#000;
 	padding-top: 20px;
+	margin-bottom:40px;
 }
 .t-order h1{
 	font-size:25px;
@@ -266,6 +267,16 @@ color: #5a5a5a;
 /* padding: 0px 59px; */
 width: 150px;
 min-height: 80px;
+}
+.contact-in .info{
+	margin-bottom:30px;
+}
+.contact-in .info p{
+	color:#575757;
+	font-size:15px;
+	line-height:25px;
+	padding:0px;
+	margin:0px;
 }
 .footer{
 	background-image: -moz-linear-gradient(top, #dedede, #efefef);
