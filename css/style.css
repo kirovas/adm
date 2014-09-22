@@ -382,11 +382,11 @@ and (max-width : 320px) {
 	nav ul     { display: none; }
     nav select { display: inline-block; top:0px;}
 	.center-name{display:none;}
- .arrow{display:none;}
+ .arrow, .arrow-down{display:none;}
  .footer .column-first{
 	width:100%;
  }
- 
+ .princ{width:100%;text-align:center;}
 }
  
 /* Smartphones (landscape) ----------- */
@@ -397,10 +397,11 @@ and (max-width : 480px) {
 	nav ul     { display: none; }
     nav select { display: inline-block; top:-45px;}
 	.center-name{display:none;}
-	 .arrow{display:none;}
+	.arrow, .arrow-down{display:none;}
 	 .footer .column-first{
 	width:100%;
  }
+ .princ{width:100%;text-align:center;}
 }
  
 /* iPads (portrait) ----------- */
@@ -411,11 +412,12 @@ and (max-width : 768px) {
 	nav ul     { display: none; }
     nav select { display: inline-block; top:-45px;}
 	.center-name{display:none;}
-	 .arrow{display:none;}
+	 .arrow, .arrow-down{display:none;}
 	 .footer .column-first{
 	width:100%;
  }
  .form-group{float:left;}
+ .princ{width:100%;text-align:center;}
 }
  
 /* iPads (landscape) ----------- */
