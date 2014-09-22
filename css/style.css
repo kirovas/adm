@@ -101,7 +101,7 @@ nav select {
 	  line-height:30px;
 	  height:30px;
 	  text-transform:uppercase;
-	  position:relative;
+	  position:static;
     }
 .full-slider{
 	overflow:hidden;
