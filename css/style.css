@@ -260,7 +260,7 @@ transform: rotate(90deg);
 	text-align:center;
 	font-family:'Book Antiqua';
 	color:#000;
-	padding-top: 20px;
+	padding-top: 0px;
 	margin-bottom:40px;
 }
 .t-order h1{
@@ -315,6 +315,13 @@ min-height: 80px;
 	line-height:25px;
 	padding:0px;
 	margin:0px;
+}
+.about-in {
+	margin-left:-15px;
+}
+.about-in p{
+	color:#575757;
+	font-size:12px;
 }
 .footer{
 	background-image: -moz-linear-gradient(top, #dedede, #efefef);
