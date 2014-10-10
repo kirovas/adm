@@ -441,6 +441,9 @@ border-radius: 0px;
 .modal-footer{
 	text-align:center;
 }
+.modal-dialog{
+	margin-top:180px!important;
+}
 	/* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
